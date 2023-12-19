@@ -29,14 +29,14 @@
 		<script>
 			<script>
 				  // Ensure dataLayer is initialized
-				  window.dataLayer = window.dataLayer || [];
+				  dataLayer = window.dataLayer || [];
 				
 				  // Get the user ID (replace this with your logic to fetch the user ID)
 				  const userId = "user_131"; // Replace this with your logic to get the user ID
 				
 				  // Push the user ID to the dataLayer
-				  window.dataLayer.push({
-				    'event': 'gtm.init',
+				  dataLayer.push({
+				    'event': 'userData',
 				    'userId': 'user_131'
 				  });
 			</script>
